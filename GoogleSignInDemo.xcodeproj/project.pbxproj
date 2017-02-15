@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7212FBC1E542D6D00BBF88C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7212FBB1E542D6D00BBF88C /* Social.framework */; };
 		E78838911E52E08B00CB6A36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838901E52E08B00CB6A36 /* main.m */; };
 		E78838941E52E08B00CB6A36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838931E52E08B00CB6A36 /* AppDelegate.m */; };
 		E78838971E52E08B00CB6A36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838961E52E08B00CB6A36 /* ViewController.m */; };
@@ -16,6 +17,83 @@
 		E78838A21E52E08C00CB6A36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78838A01E52E08C00CB6A36 /* LaunchScreen.storyboard */; };
 		E78838AD1E52E08C00CB6A36 /* GoogleSignInDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838AC1E52E08C00CB6A36 /* GoogleSignInDemoTests.m */; };
 		E78838B81E52E08C00CB6A36 /* GoogleSignInDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838B71E52E08C00CB6A36 /* GoogleSignInDemoUITests.m */; };
+		E78838C71E52E0B900CB6A36 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78838C61E52E0B900CB6A36 /* SystemConfiguration.framework */; };
+		E78838C91E52E0C000CB6A36 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78838C81E52E0C000CB6A36 /* SafariServices.framework */; };
+		E78838E01E52E16500CB6A36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E78838DF1E52E16500CB6A36 /* GoogleService-Info.plist */; };
+		E78838E11E52E16500CB6A36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E78838DF1E52E16500CB6A36 /* GoogleService-Info.plist */; };
+		E78838E21E52E16500CB6A36 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E78838DF1E52E16500CB6A36 /* GoogleService-Info.plist */; };
+		E78839061E52F99F00CB6A36 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838E61E52F99F00CB6A36 /* MKAnnotationView+WebCache.m */; };
+		E78839071E52F99F00CB6A36 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838E61E52F99F00CB6A36 /* MKAnnotationView+WebCache.m */; };
+		E78839081E52F99F00CB6A36 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838E61E52F99F00CB6A36 /* MKAnnotationView+WebCache.m */; };
+		E78839091E52F99F00CB6A36 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838E81E52F99F00CB6A36 /* NSData+ImageContentType.m */; };
+		E788390A1E52F99F00CB6A36 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838E81E52F99F00CB6A36 /* NSData+ImageContentType.m */; };
+		E788390B1E52F99F00CB6A36 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838E81E52F99F00CB6A36 /* NSData+ImageContentType.m */; };
+		E788390C1E52F99F00CB6A36 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838EA1E52F99F00CB6A36 /* SDImageCache.m */; };
+		E788390D1E52F99F00CB6A36 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838EA1E52F99F00CB6A36 /* SDImageCache.m */; };
+		E788390E1E52F99F00CB6A36 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838EA1E52F99F00CB6A36 /* SDImageCache.m */; };
+		E788390F1E52F99F00CB6A36 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838EC1E52F99F00CB6A36 /* SDWebImageCompat.m */; };
+		E78839101E52F99F00CB6A36 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838EC1E52F99F00CB6A36 /* SDWebImageCompat.m */; };
+		E78839111E52F99F00CB6A36 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838EC1E52F99F00CB6A36 /* SDWebImageCompat.m */; };
+		E78839121E52F99F00CB6A36 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838EE1E52F99F00CB6A36 /* SDWebImageDecoder.m */; };
+		E78839131E52F99F00CB6A36 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838EE1E52F99F00CB6A36 /* SDWebImageDecoder.m */; };
+		E78839141E52F99F00CB6A36 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838EE1E52F99F00CB6A36 /* SDWebImageDecoder.m */; };
+		E78839151E52F99F00CB6A36 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838F01E52F99F00CB6A36 /* SDWebImageDownloader.m */; };
+		E78839161E52F99F00CB6A36 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838F01E52F99F00CB6A36 /* SDWebImageDownloader.m */; };
+		E78839171E52F99F00CB6A36 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838F01E52F99F00CB6A36 /* SDWebImageDownloader.m */; };
+		E78839181E52F99F00CB6A36 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838F21E52F99F00CB6A36 /* SDWebImageDownloaderOperation.m */; };
+		E78839191E52F99F00CB6A36 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838F21E52F99F00CB6A36 /* SDWebImageDownloaderOperation.m */; };
+		E788391A1E52F99F00CB6A36 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838F21E52F99F00CB6A36 /* SDWebImageDownloaderOperation.m */; };
+		E788391B1E52F99F00CB6A36 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838F41E52F99F00CB6A36 /* SDWebImageManager.m */; };
+		E788391C1E52F99F00CB6A36 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838F41E52F99F00CB6A36 /* SDWebImageManager.m */; };
+		E788391D1E52F99F00CB6A36 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838F41E52F99F00CB6A36 /* SDWebImageManager.m */; };
+		E788391E1E52F99F00CB6A36 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838F71E52F99F00CB6A36 /* SDWebImagePrefetcher.m */; };
+		E788391F1E52F99F00CB6A36 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838F71E52F99F00CB6A36 /* SDWebImagePrefetcher.m */; };
+		E78839201E52F99F00CB6A36 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838F71E52F99F00CB6A36 /* SDWebImagePrefetcher.m */; };
+		E78839211E52F99F00CB6A36 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838F91E52F99F00CB6A36 /* UIButton+WebCache.m */; };
+		E78839221E52F99F00CB6A36 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838F91E52F99F00CB6A36 /* UIButton+WebCache.m */; };
+		E78839231E52F99F00CB6A36 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838F91E52F99F00CB6A36 /* UIButton+WebCache.m */; };
+		E78839241E52F99F00CB6A36 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838FB1E52F99F00CB6A36 /* UIImage+GIF.m */; };
+		E78839251E52F99F00CB6A36 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838FB1E52F99F00CB6A36 /* UIImage+GIF.m */; };
+		E78839261E52F99F00CB6A36 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838FB1E52F99F00CB6A36 /* UIImage+GIF.m */; };
+		E78839271E52F99F00CB6A36 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838FD1E52F99F00CB6A36 /* UIImage+MultiFormat.m */; };
+		E78839281E52F99F00CB6A36 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838FD1E52F99F00CB6A36 /* UIImage+MultiFormat.m */; };
+		E78839291E52F99F00CB6A36 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838FD1E52F99F00CB6A36 /* UIImage+MultiFormat.m */; };
+		E788392A1E52F99F00CB6A36 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838FF1E52F99F00CB6A36 /* UIImage+WebP.m */; };
+		E788392B1E52F99F00CB6A36 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838FF1E52F99F00CB6A36 /* UIImage+WebP.m */; };
+		E788392C1E52F99F00CB6A36 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838FF1E52F99F00CB6A36 /* UIImage+WebP.m */; };
+		E788392D1E52F99F00CB6A36 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E78839011E52F99F00CB6A36 /* UIImageView+HighlightedWebCache.m */; };
+		E788392E1E52F99F00CB6A36 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E78839011E52F99F00CB6A36 /* UIImageView+HighlightedWebCache.m */; };
+		E788392F1E52F99F00CB6A36 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E78839011E52F99F00CB6A36 /* UIImageView+HighlightedWebCache.m */; };
+		E78839301E52F99F00CB6A36 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E78839031E52F99F00CB6A36 /* UIImageView+WebCache.m */; };
+		E78839311E52F99F00CB6A36 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E78839031E52F99F00CB6A36 /* UIImageView+WebCache.m */; };
+		E78839321E52F99F00CB6A36 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E78839031E52F99F00CB6A36 /* UIImageView+WebCache.m */; };
+		E78839331E52F99F00CB6A36 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E78839051E52F99F00CB6A36 /* UIView+WebCacheOperation.m */; };
+		E78839341E52F99F00CB6A36 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E78839051E52F99F00CB6A36 /* UIView+WebCacheOperation.m */; };
+		E78839351E52F99F00CB6A36 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E78839051E52F99F00CB6A36 /* UIView+WebCacheOperation.m */; };
+		E788393F1E530DC900CB6A36 /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788393A1E530DC900CB6A36 /* GoogleAppUtilities.framework */; };
+		E78839401E530DC900CB6A36 /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788393A1E530DC900CB6A36 /* GoogleAppUtilities.framework */; };
+		E78839411E530DC900CB6A36 /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788393A1E530DC900CB6A36 /* GoogleAppUtilities.framework */; };
+		E78839421E530DC900CB6A36 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E788393B1E530DC900CB6A36 /* GoogleSignIn.bundle */; };
+		E78839431E530DC900CB6A36 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E788393B1E530DC900CB6A36 /* GoogleSignIn.bundle */; };
+		E78839441E530DC900CB6A36 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E788393B1E530DC900CB6A36 /* GoogleSignIn.bundle */; };
+		E78839451E530DC900CB6A36 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788393C1E530DC900CB6A36 /* GoogleSignIn.framework */; };
+		E78839461E530DC900CB6A36 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788393C1E530DC900CB6A36 /* GoogleSignIn.framework */; };
+		E78839471E530DC900CB6A36 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788393C1E530DC900CB6A36 /* GoogleSignIn.framework */; };
+		E78839481E530DC900CB6A36 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788393D1E530DC900CB6A36 /* GoogleSignInDependencies.framework */; };
+		E78839491E530DC900CB6A36 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788393D1E530DC900CB6A36 /* GoogleSignInDependencies.framework */; };
+		E788394A1E530DC900CB6A36 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788393D1E530DC900CB6A36 /* GoogleSignInDependencies.framework */; };
+		E788394B1E530DC900CB6A36 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788393E1E530DC900CB6A36 /* GoogleSymbolUtilities.framework */; };
+		E788394C1E530DC900CB6A36 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788393E1E530DC900CB6A36 /* GoogleSymbolUtilities.framework */; };
+		E788394D1E530DC900CB6A36 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788393E1E530DC900CB6A36 /* GoogleSymbolUtilities.framework */; };
+		E78839781E5312AC00CB6A36 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78839761E5312AC00CB6A36 /* FBSDKCoreKit.framework */; };
+		E78839791E5312AC00CB6A36 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78839761E5312AC00CB6A36 /* FBSDKCoreKit.framework */; };
+		E788397A1E5312AC00CB6A36 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78839761E5312AC00CB6A36 /* FBSDKCoreKit.framework */; };
+		E788397B1E5312AC00CB6A36 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78839771E5312AC00CB6A36 /* FBSDKLoginKit.framework */; };
+		E788397C1E5312AC00CB6A36 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78839771E5312AC00CB6A36 /* FBSDKLoginKit.framework */; };
+		E788397D1E5312AC00CB6A36 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78839771E5312AC00CB6A36 /* FBSDKLoginKit.framework */; };
+		E788397F1E5312DC00CB6A36 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788397E1E5312DC00CB6A36 /* Bolts.framework */; };
+		E78839801E5312DC00CB6A36 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788397E1E5312DC00CB6A36 /* Bolts.framework */; };
+		E78839811E5312DC00CB6A36 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788397E1E5312DC00CB6A36 /* Bolts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +114,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E7212FBB1E542D6D00BBF88C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		E788388C1E52E08B00CB6A36 /* GoogleSignInDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleSignInDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78838901E52E08B00CB6A36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E78838921E52E08B00CB6A36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +132,51 @@
 		E78838B31E52E08C00CB6A36 /* GoogleSignInDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleSignInDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78838B71E52E08C00CB6A36 /* GoogleSignInDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleSignInDemoUITests.m; sourceTree = "<group>"; };
 		E78838B91E52E08C00CB6A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78838C61E52E0B900CB6A36 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E78838C81E52E0C000CB6A36 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		E78838DF1E52E16500CB6A36 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E78838E31E52E25700CB6A36 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		E78838E51E52F99F00CB6A36 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		E78838E61E52F99F00CB6A36 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		E78838E71E52F99F00CB6A36 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		E78838E81E52F99F00CB6A36 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		E78838E91E52F99F00CB6A36 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		E78838EA1E52F99F00CB6A36 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		E78838EB1E52F99F00CB6A36 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		E78838EC1E52F99F00CB6A36 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		E78838ED1E52F99F00CB6A36 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		E78838EE1E52F99F00CB6A36 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		E78838EF1E52F99F00CB6A36 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		E78838F01E52F99F00CB6A36 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		E78838F11E52F99F00CB6A36 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		E78838F21E52F99F00CB6A36 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		E78838F31E52F99F00CB6A36 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		E78838F41E52F99F00CB6A36 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		E78838F51E52F99F00CB6A36 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		E78838F61E52F99F00CB6A36 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		E78838F71E52F99F00CB6A36 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		E78838F81E52F99F00CB6A36 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		E78838F91E52F99F00CB6A36 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		E78838FA1E52F99F00CB6A36 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		E78838FB1E52F99F00CB6A36 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		E78838FC1E52F99F00CB6A36 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		E78838FD1E52F99F00CB6A36 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		E78838FE1E52F99F00CB6A36 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		E78838FF1E52F99F00CB6A36 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		E78839001E52F99F00CB6A36 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		E78839011E52F99F00CB6A36 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		E78839021E52F99F00CB6A36 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		E78839031E52F99F00CB6A36 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		E78839041E52F99F00CB6A36 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		E78839051E52F99F00CB6A36 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		E788393A1E530DC900CB6A36 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		E788393B1E530DC900CB6A36 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		E788393C1E530DC900CB6A36 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		E788393D1E530DC900CB6A36 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		E788393E1E530DC900CB6A36 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		E78839761E5312AC00CB6A36 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		E78839771E5312AC00CB6A36 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		E788397E1E5312DC00CB6A36 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +184,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7212FBC1E542D6D00BBF88C /* Social.framework in Frameworks */,
+				E78839481E530DC900CB6A36 /* GoogleSignInDependencies.framework in Frameworks */,
+				E78838C91E52E0C000CB6A36 /* SafariServices.framework in Frameworks */,
+				E78838C71E52E0B900CB6A36 /* SystemConfiguration.framework in Frameworks */,
+				E788394B1E530DC900CB6A36 /* GoogleSymbolUtilities.framework in Frameworks */,
+				E78839781E5312AC00CB6A36 /* FBSDKCoreKit.framework in Frameworks */,
+				E788393F1E530DC900CB6A36 /* GoogleAppUtilities.framework in Frameworks */,
+				E788397F1E5312DC00CB6A36 /* Bolts.framework in Frameworks */,
+				E788397B1E5312AC00CB6A36 /* FBSDKLoginKit.framework in Frameworks */,
+				E78839451E530DC900CB6A36 /* GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +201,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78839791E5312AC00CB6A36 /* FBSDKCoreKit.framework in Frameworks */,
+				E78839401E530DC900CB6A36 /* GoogleAppUtilities.framework in Frameworks */,
+				E788397C1E5312AC00CB6A36 /* FBSDKLoginKit.framework in Frameworks */,
+				E78839461E530DC900CB6A36 /* GoogleSignIn.framework in Frameworks */,
+				E788394C1E530DC900CB6A36 /* GoogleSymbolUtilities.framework in Frameworks */,
+				E78839491E530DC900CB6A36 /* GoogleSignInDependencies.framework in Frameworks */,
+				E78839801E5312DC00CB6A36 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +215,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E788397A1E5312AC00CB6A36 /* FBSDKCoreKit.framework in Frameworks */,
+				E78839411E530DC900CB6A36 /* GoogleAppUtilities.framework in Frameworks */,
+				E788397D1E5312AC00CB6A36 /* FBSDKLoginKit.framework in Frameworks */,
+				E78839471E530DC900CB6A36 /* GoogleSignIn.framework in Frameworks */,
+				E788394D1E530DC900CB6A36 /* GoogleSymbolUtilities.framework in Frameworks */,
+				E788394A1E530DC900CB6A36 /* GoogleSignInDependencies.framework in Frameworks */,
+				E78839811E5312DC00CB6A36 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +235,7 @@
 				E78838AB1E52E08C00CB6A36 /* GoogleSignInDemoTests */,
 				E78838B61E52E08C00CB6A36 /* GoogleSignInDemoUITests */,
 				E788388D1E52E08B00CB6A36 /* Products */,
+				E78838C51E52E0B900CB6A36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +262,7 @@
 				E78838A31E52E08C00CB6A36 /* Info.plist */,
 				E788389B1E52E08C00CB6A36 /* GoogleSignInDemo.xcdatamodeld */,
 				E788388F1E52E08B00CB6A36 /* Supporting Files */,
+				E78838E31E52E25700CB6A36 /* Define.h */,
 			);
 			path = GoogleSignInDemo;
 			sourceTree = "<group>";
@@ -120,6 +270,7 @@
 		E788388F1E52E08B00CB6A36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E78838DF1E52E16500CB6A36 /* GoogleService-Info.plist */,
 				E78838901E52E08B00CB6A36 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -141,6 +292,73 @@
 				E78838B91E52E08C00CB6A36 /* Info.plist */,
 			);
 			path = GoogleSignInDemoUITests;
+			sourceTree = "<group>";
+		};
+		E78838C51E52E0B900CB6A36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7212FBB1E542D6D00BBF88C /* Social.framework */,
+				E788397E1E5312DC00CB6A36 /* Bolts.framework */,
+				E78839761E5312AC00CB6A36 /* FBSDKCoreKit.framework */,
+				E78839771E5312AC00CB6A36 /* FBSDKLoginKit.framework */,
+				E78838E41E52F99F00CB6A36 /* SDWebImage */,
+				E78838CA1E52E0CC00CB6A36 /* Google Sign In */,
+				E78838C81E52E0C000CB6A36 /* SafariServices.framework */,
+				E78838C61E52E0B900CB6A36 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E78838CA1E52E0CC00CB6A36 /* Google Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				E788393A1E530DC900CB6A36 /* GoogleAppUtilities.framework */,
+				E788393B1E530DC900CB6A36 /* GoogleSignIn.bundle */,
+				E788393C1E530DC900CB6A36 /* GoogleSignIn.framework */,
+				E788393D1E530DC900CB6A36 /* GoogleSignInDependencies.framework */,
+				E788393E1E530DC900CB6A36 /* GoogleSymbolUtilities.framework */,
+			);
+			name = "Google Sign In";
+			sourceTree = "<group>";
+		};
+		E78838E41E52F99F00CB6A36 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				E78838E51E52F99F00CB6A36 /* MKAnnotationView+WebCache.h */,
+				E78838E61E52F99F00CB6A36 /* MKAnnotationView+WebCache.m */,
+				E78838E71E52F99F00CB6A36 /* NSData+ImageContentType.h */,
+				E78838E81E52F99F00CB6A36 /* NSData+ImageContentType.m */,
+				E78838E91E52F99F00CB6A36 /* SDImageCache.h */,
+				E78838EA1E52F99F00CB6A36 /* SDImageCache.m */,
+				E78838EB1E52F99F00CB6A36 /* SDWebImageCompat.h */,
+				E78838EC1E52F99F00CB6A36 /* SDWebImageCompat.m */,
+				E78838ED1E52F99F00CB6A36 /* SDWebImageDecoder.h */,
+				E78838EE1E52F99F00CB6A36 /* SDWebImageDecoder.m */,
+				E78838EF1E52F99F00CB6A36 /* SDWebImageDownloader.h */,
+				E78838F01E52F99F00CB6A36 /* SDWebImageDownloader.m */,
+				E78838F11E52F99F00CB6A36 /* SDWebImageDownloaderOperation.h */,
+				E78838F21E52F99F00CB6A36 /* SDWebImageDownloaderOperation.m */,
+				E78838F31E52F99F00CB6A36 /* SDWebImageManager.h */,
+				E78838F41E52F99F00CB6A36 /* SDWebImageManager.m */,
+				E78838F51E52F99F00CB6A36 /* SDWebImageOperation.h */,
+				E78838F61E52F99F00CB6A36 /* SDWebImagePrefetcher.h */,
+				E78838F71E52F99F00CB6A36 /* SDWebImagePrefetcher.m */,
+				E78838F81E52F99F00CB6A36 /* UIButton+WebCache.h */,
+				E78838F91E52F99F00CB6A36 /* UIButton+WebCache.m */,
+				E78838FA1E52F99F00CB6A36 /* UIImage+GIF.h */,
+				E78838FB1E52F99F00CB6A36 /* UIImage+GIF.m */,
+				E78838FC1E52F99F00CB6A36 /* UIImage+MultiFormat.h */,
+				E78838FD1E52F99F00CB6A36 /* UIImage+MultiFormat.m */,
+				E78838FE1E52F99F00CB6A36 /* UIImage+WebP.h */,
+				E78838FF1E52F99F00CB6A36 /* UIImage+WebP.m */,
+				E78839001E52F99F00CB6A36 /* UIImageView+HighlightedWebCache.h */,
+				E78839011E52F99F00CB6A36 /* UIImageView+HighlightedWebCache.m */,
+				E78839021E52F99F00CB6A36 /* UIImageView+WebCache.h */,
+				E78839031E52F99F00CB6A36 /* UIImageView+WebCache.m */,
+				E78839041E52F99F00CB6A36 /* UIView+WebCacheOperation.h */,
+				E78839051E52F99F00CB6A36 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +468,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E78838A21E52E08C00CB6A36 /* LaunchScreen.storyboard in Resources */,
+				E78839421E530DC900CB6A36 /* GoogleSignIn.bundle in Resources */,
 				E788389F1E52E08C00CB6A36 /* Assets.xcassets in Resources */,
 				E788389A1E52E08B00CB6A36 /* Main.storyboard in Resources */,
+				E78838E01E52E16500CB6A36 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +479,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78839431E530DC900CB6A36 /* GoogleSignIn.bundle in Resources */,
+				E78838E11E52E16500CB6A36 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +488,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78839441E530DC900CB6A36 /* GoogleSignIn.bundle in Resources */,
+				E78838E21E52E16500CB6A36 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +500,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E788392D1E52F99F00CB6A36 /* UIImageView+HighlightedWebCache.m in Sources */,
+				E78839271E52F99F00CB6A36 /* UIImage+MultiFormat.m in Sources */,
+				E78839181E52F99F00CB6A36 /* SDWebImageDownloaderOperation.m in Sources */,
 				E78838971E52E08B00CB6A36 /* ViewController.m in Sources */,
+				E788390F1E52F99F00CB6A36 /* SDWebImageCompat.m in Sources */,
+				E78839241E52F99F00CB6A36 /* UIImage+GIF.m in Sources */,
+				E788391E1E52F99F00CB6A36 /* SDWebImagePrefetcher.m in Sources */,
 				E78838941E52E08B00CB6A36 /* AppDelegate.m in Sources */,
 				E78838911E52E08B00CB6A36 /* main.m in Sources */,
+				E788392A1E52F99F00CB6A36 /* UIImage+WebP.m in Sources */,
+				E78839301E52F99F00CB6A36 /* UIImageView+WebCache.m in Sources */,
+				E78839151E52F99F00CB6A36 /* SDWebImageDownloader.m in Sources */,
+				E78839331E52F99F00CB6A36 /* UIView+WebCacheOperation.m in Sources */,
+				E78839211E52F99F00CB6A36 /* UIButton+WebCache.m in Sources */,
+				E78839061E52F99F00CB6A36 /* MKAnnotationView+WebCache.m in Sources */,
+				E78839091E52F99F00CB6A36 /* NSData+ImageContentType.m in Sources */,
 				E788389D1E52E08C00CB6A36 /* GoogleSignInDemo.xcdatamodeld in Sources */,
+				E788391B1E52F99F00CB6A36 /* SDWebImageManager.m in Sources */,
+				E78839121E52F99F00CB6A36 /* SDWebImageDecoder.m in Sources */,
+				E788390C1E52F99F00CB6A36 /* SDImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +527,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78839341E52F99F00CB6A36 /* UIView+WebCacheOperation.m in Sources */,
+				E78839281E52F99F00CB6A36 /* UIImage+MultiFormat.m in Sources */,
 				E78838AD1E52E08C00CB6A36 /* GoogleSignInDemoTests.m in Sources */,
+				E788391F1E52F99F00CB6A36 /* SDWebImagePrefetcher.m in Sources */,
+				E788392E1E52F99F00CB6A36 /* UIImageView+HighlightedWebCache.m in Sources */,
+				E788390A1E52F99F00CB6A36 /* NSData+ImageContentType.m in Sources */,
+				E78839221E52F99F00CB6A36 /* UIButton+WebCache.m in Sources */,
+				E78839191E52F99F00CB6A36 /* SDWebImageDownloaderOperation.m in Sources */,
+				E788391C1E52F99F00CB6A36 /* SDWebImageManager.m in Sources */,
+				E78839251E52F99F00CB6A36 /* UIImage+GIF.m in Sources */,
+				E78839101E52F99F00CB6A36 /* SDWebImageCompat.m in Sources */,
+				E78839311E52F99F00CB6A36 /* UIImageView+WebCache.m in Sources */,
+				E78839071E52F99F00CB6A36 /* MKAnnotationView+WebCache.m in Sources */,
+				E78839131E52F99F00CB6A36 /* SDWebImageDecoder.m in Sources */,
+				E788392B1E52F99F00CB6A36 /* UIImage+WebP.m in Sources */,
+				E78839161E52F99F00CB6A36 /* SDWebImageDownloader.m in Sources */,
+				E788390D1E52F99F00CB6A36 /* SDImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +551,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78839351E52F99F00CB6A36 /* UIView+WebCacheOperation.m in Sources */,
+				E78839291E52F99F00CB6A36 /* UIImage+MultiFormat.m in Sources */,
 				E78838B81E52E08C00CB6A36 /* GoogleSignInDemoUITests.m in Sources */,
+				E78839201E52F99F00CB6A36 /* SDWebImagePrefetcher.m in Sources */,
+				E788392F1E52F99F00CB6A36 /* UIImageView+HighlightedWebCache.m in Sources */,
+				E788390B1E52F99F00CB6A36 /* NSData+ImageContentType.m in Sources */,
+				E78839231E52F99F00CB6A36 /* UIButton+WebCache.m in Sources */,
+				E788391A1E52F99F00CB6A36 /* SDWebImageDownloaderOperation.m in Sources */,
+				E788391D1E52F99F00CB6A36 /* SDWebImageManager.m in Sources */,
+				E78839261E52F99F00CB6A36 /* UIImage+GIF.m in Sources */,
+				E78839111E52F99F00CB6A36 /* SDWebImageCompat.m in Sources */,
+				E78839321E52F99F00CB6A36 /* UIImageView+WebCache.m in Sources */,
+				E78839081E52F99F00CB6A36 /* MKAnnotationView+WebCache.m in Sources */,
+				E78839141E52F99F00CB6A36 /* SDWebImageDecoder.m in Sources */,
+				E788392C1E52F99F00CB6A36 /* UIImage+WebP.m in Sources */,
+				E78839171E52F99F00CB6A36 /* SDWebImageDownloader.m in Sources */,
+				E788390E1E52F99F00CB6A36 /* SDImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,8 +700,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = GoogleSignInDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = MF.GoogleSignInDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -439,8 +717,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = GoogleSignInDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = MF.GoogleSignInDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -450,6 +734,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GoogleSignInDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MF.GoogleSignInDemoTests;
@@ -462,6 +750,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GoogleSignInDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MF.GoogleSignInDemoTests;
@@ -473,6 +765,10 @@
 		E78838C31E52E08C00CB6A36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GoogleSignInDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MF.GoogleSignInDemoUITests;
@@ -484,6 +780,10 @@
 		E78838C41E52E08C00CB6A36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GoogleSignInDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MF.GoogleSignInDemoUITests;
@@ -511,6 +811,7 @@
 				E78838BE1E52E08C00CB6A36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E78838BF1E52E08C00CB6A36 /* Build configuration list for PBXNativeTarget "GoogleSignInDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +820,7 @@
 				E78838C11E52E08C00CB6A36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E78838C21E52E08C00CB6A36 /* Build configuration list for PBXNativeTarget "GoogleSignInDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +829,7 @@
 				E78838C41E52E08C00CB6A36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

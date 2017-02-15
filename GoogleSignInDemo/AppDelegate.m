@@ -5,8 +5,11 @@
 //  Created by Amanpreet Singh on 14/02/17.
 //  Copyright © 2017 Amanpreet Singh. All rights reserved.
 //
-
+#import <GoogleSignIn/GoogleSignIn.h>
+#import "Define.h"
 #import "AppDelegate.h"
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
 
 @interface AppDelegate ()
 
@@ -17,7 +20,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    return YES;
+    [GIDSignIn sharedInstance].clientID = kClientKey;
+    
+   
+   
+    
+    
+
+    return [[FBSDKApplicationDelegate sharedInstance] application:application
+                                    didFinishLaunchingWithOptions:launchOptions]; ;
 }
 
 
@@ -48,6 +59,38 @@
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
 }
+
+
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+
+    if([[FBSDKApplicationDelegate sharedInstance] application:application
+                                                      openURL:url
+                                            sourceApplication:sourceApplication
+                                                   annotation:annotation])
+        {
+            return YES;
+        }
+    
+    else if ([[GIDSignIn sharedInstance] handleURL:url
+                                             sourceApplication:sourceApplication
+                                                    annotation:annotation])
+    {
+        return YES;
+    }
+    
+//    return [[GIDSignIn sharedInstance] handleURL:url
+//                               sourceApplication:sourceApplication
+//                                      annotation:annotation];
+    return NO;
+   
+}
+
+
+
 
 
 #pragma mark - Core Data stack
