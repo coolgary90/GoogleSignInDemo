@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <Social/Social.h>
 
 @interface ViewController ()
 
@@ -24,12 +25,15 @@
     [GIDSignIn sharedInstance].shouldFetchBasicProfile=TRUE;
     self.SignInBtn.hidden = NO;
     self.logOutBtn.hidden=YES;
+    self.twitterShare.hidden  = NO;
+    self.fbShare.hidden  = NO;
     FBSDKLoginButton* button = [[FBSDKLoginButton alloc]init];
     button.delegate = self;
     button.translatesAutoresizingMaskIntoConstraints = YES;
     button.frame = CGRectMake(self.SignInBtn.frame.origin.x, self.SignInBtn.frame.origin.y+self.SignInBtn.frame.size.height+20, self.SignInBtn.frame.size.width+35, self.SignInBtn.frame.size.height);
     button.readPermissions=@[@"public_profile", @"email"];
     [self.view addSubview:button];
+    
     
 
     if([GIDSignIn sharedInstance].hasAuthInKeychain)
@@ -53,9 +57,7 @@
 }
 
 
- - (void)viewWillAppear:(BOOL)animated
-{
-    }
+
 
 - (void)signInWillDispatch:(GIDSignIn *)signIn error:(NSError *)error {
     
@@ -159,5 +161,54 @@ didCompleteWithResult:(FBSDKLoginManagerLoginResult *)result
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)fbShareClicked:(id)sender
+{
+    
+    
+    
+    if([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook])
+    {
+        SLComposeViewController* fbObj = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+        [fbObj setInitialText:@"Sharing content on facebook throught iOS app"];
+        [fbObj addURL:[NSURL URLWithString:@"http://www.appcoda.com"]];
+        [fbObj addImage:[UIImage imageNamed:@"scene.jpg"]];
+        [fbObj setTitle:@"Demo"];
+        [self presentViewController:fbObj animated:YES completion:nil];
+        
+    }
+    
+    else
+    {
+        UIAlertController* alert  = [UIAlertController alertControllerWithTitle:@"Oops.." message:@"Please configure your Facebook account in Settings" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction* action = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault handler:nil];
+        [alert  addAction:action];
+        [self presentViewController:alert animated:YES completion:nil];
+    }
+
+}
+
+- (IBAction)twitterShareClicked:(id)sender
+{
+    
+    if([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter])
+    {
+        SLComposeViewController* tweet = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+        [tweet setInitialText:@"Sharing content on Twitter throught iOS app"];
+        [tweet setTitle:@"Demo"];
+        [tweet addURL:[NSURL URLWithString:@"http://www.appcoda.com"]];
+        [tweet addImage:[UIImage imageNamed:@"scene.jpg"]];
+        [self presentViewController:tweet animated:YES completion:nil];
+        
+    }
+    
+    else
+    {
+        UIAlertController* alert  = [UIAlertController alertControllerWithTitle:@"Oops.." message:@"Please configure your Twitter account in Settings" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction* action = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault handler:nil];
+        [alert  addAction:action];
+        [self presentViewController:alert animated:YES completion:nil];
+    }
+}
 
 @end

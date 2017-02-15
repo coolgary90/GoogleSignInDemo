@@ -17,6 +17,10 @@
 @property(weak ,nonatomic) IBOutlet UIImageView* userImage;
 @property(weak, nonatomic) IBOutlet GIDSignInButton* SignInBtn;
 @property(weak, nonatomic) IBOutlet UIButton* logOutBtn;
+@property(weak, nonatomic) IBOutlet UIButton* fbShare;
+@property(weak, nonatomic) IBOutlet UIButton* twitterShare;
+
+
 
 
 

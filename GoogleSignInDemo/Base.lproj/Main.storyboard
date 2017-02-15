@@ -65,20 +65,26 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dS3-wG-Nqp">
-                                <rect key="frame" x="94" y="203" width="138" height="30"/>
+                                <rect key="frame" x="120" y="204" width="138" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.28021420229999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.5433491318635395" green="0.54766737916236508" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Fb Share">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="fbShareClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Phd-Hw-CwY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jDq-Lu-ndG">
-                                <rect key="frame" x="94" y="254" width="138" height="30"/>
+                                <rect key="frame" x="120" y="257" width="138" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.28021420229999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.15145351687084596" green="0.53433249542962047" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Twitter Share">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="twitterShareClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aOv-JN-58O"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.25789606230000001" green="0.56913022069999997" blue="0.81150856599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -90,8 +96,10 @@
                     </view>
                     <connections>
                         <outlet property="SignInBtn" destination="G0s-4K-jHc" id="zp3-7n-15h"/>
+                        <outlet property="fbShare" destination="dS3-wG-Nqp" id="y8V-Au-pRX"/>
                         <outlet property="googleSignIn" destination="Dqd-mS-6FB" id="W3V-oO-fGB"/>
                         <outlet property="logOutBtn" destination="V0X-Tf-qVw" id="GvW-Hj-okQ"/>
+                        <outlet property="twitterShare" destination="jDq-Lu-ndG" id="0Fp-jV-Bqk"/>
                         <outlet property="userEmail" destination="4bv-R3-w1K" id="kuZ-wY-qQq"/>
                         <outlet property="userImage" destination="gon-dS-fo2" id="5hH-h9-Yyz"/>
                         <outlet property="userName" destination="Zjn-gE-qc4" id="uOj-wB-JSx"/>

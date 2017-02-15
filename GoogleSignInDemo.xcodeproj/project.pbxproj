@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E7212FBC1E542D6D00BBF88C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7212FBB1E542D6D00BBF88C /* Social.framework */; };
+		E7212FBE1E54334D00BBF88C /* scene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7212FBD1E54334D00BBF88C /* scene.jpg */; };
+		E7212FBF1E54334D00BBF88C /* scene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7212FBD1E54334D00BBF88C /* scene.jpg */; };
+		E7212FC01E54334D00BBF88C /* scene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7212FBD1E54334D00BBF88C /* scene.jpg */; };
 		E78838911E52E08B00CB6A36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838901E52E08B00CB6A36 /* main.m */; };
 		E78838941E52E08B00CB6A36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838931E52E08B00CB6A36 /* AppDelegate.m */; };
 		E78838971E52E08B00CB6A36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838961E52E08B00CB6A36 /* ViewController.m */; };
@@ -115,6 +118,7 @@
 
 /* Begin PBXFileReference section */
 		E7212FBB1E542D6D00BBF88C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		E7212FBD1E54334D00BBF88C /* scene.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scene.jpg; sourceTree = "<group>"; };
 		E788388C1E52E08B00CB6A36 /* GoogleSignInDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleSignInDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78838901E52E08B00CB6A36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E78838921E52E08B00CB6A36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -252,6 +256,7 @@
 		E788388E1E52E08B00CB6A36 /* GoogleSignInDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E7212FBD1E54334D00BBF88C /* scene.jpg */,
 				E78838921E52E08B00CB6A36 /* AppDelegate.h */,
 				E78838931E52E08B00CB6A36 /* AppDelegate.m */,
 				E78838951E52E08B00CB6A36 /* ViewController.h */,
@@ -471,6 +476,7 @@
 				E78839421E530DC900CB6A36 /* GoogleSignIn.bundle in Resources */,
 				E788389F1E52E08C00CB6A36 /* Assets.xcassets in Resources */,
 				E788389A1E52E08B00CB6A36 /* Main.storyboard in Resources */,
+				E7212FBE1E54334D00BBF88C /* scene.jpg in Resources */,
 				E78838E01E52E16500CB6A36 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +486,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E78839431E530DC900CB6A36 /* GoogleSignIn.bundle in Resources */,
+				E7212FBF1E54334D00BBF88C /* scene.jpg in Resources */,
 				E78838E11E52E16500CB6A36 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +496,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E78839441E530DC900CB6A36 /* GoogleSignIn.bundle in Resources */,
+				E7212FC01E54334D00BBF88C /* scene.jpg in Resources */,
 				E78838E21E52E16500CB6A36 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
