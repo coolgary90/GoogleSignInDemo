@@ -11,6 +11,9 @@
 		E7212FBE1E54334D00BBF88C /* scene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7212FBD1E54334D00BBF88C /* scene.jpg */; };
 		E7212FBF1E54334D00BBF88C /* scene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7212FBD1E54334D00BBF88C /* scene.jpg */; };
 		E7212FC01E54334D00BBF88C /* scene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7212FBD1E54334D00BBF88C /* scene.jpg */; };
+		E7212FC31E543B6400BBF88C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7212FC21E543B6400BBF88C /* SecondViewController.m */; };
+		E7212FC41E543B6400BBF88C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7212FC21E543B6400BBF88C /* SecondViewController.m */; };
+		E7212FC51E543B6400BBF88C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7212FC21E543B6400BBF88C /* SecondViewController.m */; };
 		E78838911E52E08B00CB6A36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838901E52E08B00CB6A36 /* main.m */; };
 		E78838941E52E08B00CB6A36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838931E52E08B00CB6A36 /* AppDelegate.m */; };
 		E78838971E52E08B00CB6A36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838961E52E08B00CB6A36 /* ViewController.m */; };
@@ -119,6 +122,8 @@
 /* Begin PBXFileReference section */
 		E7212FBB1E542D6D00BBF88C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		E7212FBD1E54334D00BBF88C /* scene.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scene.jpg; sourceTree = "<group>"; };
+		E7212FC11E543B6400BBF88C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E7212FC21E543B6400BBF88C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		E788388C1E52E08B00CB6A36 /* GoogleSignInDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleSignInDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78838901E52E08B00CB6A36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E78838921E52E08B00CB6A36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -261,6 +266,8 @@
 				E78838931E52E08B00CB6A36 /* AppDelegate.m */,
 				E78838951E52E08B00CB6A36 /* ViewController.h */,
 				E78838961E52E08B00CB6A36 /* ViewController.m */,
+				E7212FC11E543B6400BBF88C /* SecondViewController.h */,
+				E7212FC21E543B6400BBF88C /* SecondViewController.m */,
 				E78838981E52E08B00CB6A36 /* Main.storyboard */,
 				E788389E1E52E08C00CB6A36 /* Assets.xcassets */,
 				E78838A01E52E08C00CB6A36 /* LaunchScreen.storyboard */,
@@ -511,6 +518,7 @@
 				E788392D1E52F99F00CB6A36 /* UIImageView+HighlightedWebCache.m in Sources */,
 				E78839271E52F99F00CB6A36 /* UIImage+MultiFormat.m in Sources */,
 				E78839181E52F99F00CB6A36 /* SDWebImageDownloaderOperation.m in Sources */,
+				E7212FC31E543B6400BBF88C /* SecondViewController.m in Sources */,
 				E78838971E52E08B00CB6A36 /* ViewController.m in Sources */,
 				E788390F1E52F99F00CB6A36 /* SDWebImageCompat.m in Sources */,
 				E78839241E52F99F00CB6A36 /* UIImage+GIF.m in Sources */,
@@ -535,6 +543,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7212FC41E543B6400BBF88C /* SecondViewController.m in Sources */,
 				E78839341E52F99F00CB6A36 /* UIView+WebCacheOperation.m in Sources */,
 				E78839281E52F99F00CB6A36 /* UIImage+MultiFormat.m in Sources */,
 				E78838AD1E52E08C00CB6A36 /* GoogleSignInDemoTests.m in Sources */,
@@ -559,6 +568,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7212FC51E543B6400BBF88C /* SecondViewController.m in Sources */,
 				E78839351E52F99F00CB6A36 /* UIView+WebCacheOperation.m in Sources */,
 				E78839291E52F99F00CB6A36 /* UIImage+MultiFormat.m in Sources */,
 				E78838B81E52E08C00CB6A36 /* GoogleSignInDemoUITests.m in Sources */,
