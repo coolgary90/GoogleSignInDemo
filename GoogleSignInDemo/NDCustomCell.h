@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VideosElement.h"
 
 @interface NDCustomCell : UITableViewCell
-@property (weak, nonatomic) IBOutlet UILabel* newsTitle;
-@property (weak, nonatomic) IBOutlet UILabel* newsDescription;
-@property (weak, nonatomic) IBOutlet UIImageView* newsImage;
+@property (weak, nonatomic) IBOutlet UILabel* videoTitle;
+@property (weak, nonatomic) IBOutlet UIImageView* videoImage;
+@property (weak, nonatomic) IBOutlet UILabel* videoChannel;
+
+
+
+- (void)loadCellData:(VideosElement*)VideosElementObj;
 
 @end

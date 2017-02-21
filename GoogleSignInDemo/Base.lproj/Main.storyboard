@@ -86,6 +86,17 @@
                                     <action selector="twitterShareClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aOv-JN-58O"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jaw-bl-vh0">
+                                <rect key="frame" x="126" y="548" width="127" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.22556211079999999" blue="0.17645483940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="YouTube">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qJS-CV-IAj" kind="presentation" id="cSP-AR-DHJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.25789606230000001" green="0.56913022069999997" blue="0.81150856599999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -108,6 +119,58 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="JYR-UJ-2bA">
+            <objects>
+                <viewController id="qJS-CV-IAj" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tit-fP-UAd"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Hs-79-fET"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5lP-hF-xiB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hCR-RY-FtJ">
+                                <rect key="frame" x="0.0" y="65" width="375" height="602"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="qJS-CV-IAj" id="Qdn-Aw-aPr"/>
+                                    <outlet property="delegate" destination="qJS-CV-IAj" id="fjC-oN-2c0"/>
+                                </connections>
+                            </tableView>
+                            <searchBar contentMode="redraw" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K1S-TU-n4k">
+                                <rect key="frame" x="0.0" y="20" width="375" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="NY5-9s-GK4"/>
+                                </constraints>
+                                <color key="barTintColor" red="1" green="0.22556211079999999" blue="0.17645483940000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="qJS-CV-IAj" id="4cG-2P-zga"/>
+                                </connections>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="K1S-TU-n4k" secondAttribute="trailing" id="2SQ-xM-Kos"/>
+                            <constraint firstItem="K1S-TU-n4k" firstAttribute="top" secondItem="Tit-fP-UAd" secondAttribute="bottom" id="5Y3-aW-Ub9"/>
+                            <constraint firstAttribute="trailing" secondItem="hCR-RY-FtJ" secondAttribute="trailing" id="Fsh-TC-mdi"/>
+                            <constraint firstItem="0Hs-79-fET" firstAttribute="top" secondItem="hCR-RY-FtJ" secondAttribute="bottom" id="Mb4-EA-5fL"/>
+                            <constraint firstItem="hCR-RY-FtJ" firstAttribute="top" secondItem="K1S-TU-n4k" secondAttribute="bottom" id="NjA-rf-8kI"/>
+                            <constraint firstItem="K1S-TU-n4k" firstAttribute="leading" secondItem="5lP-hF-xiB" secondAttribute="leading" id="Q0w-OS-4V2"/>
+                            <constraint firstItem="hCR-RY-FtJ" firstAttribute="leading" secondItem="5lP-hF-xiB" secondAttribute="leading" id="biC-gn-jlm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="seacrhbar" destination="K1S-TU-n4k" id="voc-p4-s7Q"/>
+                        <outlet property="tableView" destination="hCR-RY-FtJ" id="7Ka-IW-uEL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wJy-RU-xNW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.79999999999995" y="183.95802098950526"/>
         </scene>
     </scenes>
 </document>

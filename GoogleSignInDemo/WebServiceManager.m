@@ -9,7 +9,6 @@
 #import <SystemConfiguration/SCNetworkReachability.h>
 #import <netinet/in.h>
 #import <UIKit/UIKit.h>
-#import "Defines.h"
 #import "DataManager.h"
 
 
@@ -17,79 +16,78 @@
 @implementation WebServiceManager
 
 #pragma mark - GET requests
-+ (NSMutableURLRequest*) getAuthorizationRequestWithService:(NSString*)service
-{
-    NSMutableURLRequest* request = [WebServiceManager getRequestWithService:service];
-    NSString* token = gDataManager.user.token;
-    if (token)
-    {
-        [request setValue:[NSString stringWithFormat:@"Bearer %@",token] forHTTPHeaderField:@"Authorization"];
-    }
-    return request;
-}
-
-+ (NSMutableURLRequest*) getRequestWithUrl:(NSString*)url
-{
-    NSMutableURLRequest* request = [NSMutableURLRequest requestWithURL:
-                                    [NSURL URLWithString:url]];
-    [request setHTTPMethod:@"GET"];
-    [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-    [request setValue:KSecretKey forHTTPHeaderField:@"x-api-key"];
-    [request setTimeoutInterval:60.0];
-    
-    return request;
-}
+//+ (NSMutableURLRequest*) getAuthorizationRequestWithService:(NSString*)service
+//{
+//    NSMutableURLRequest* request = [WebServiceManager getRequestWithService:service];
+//    NSString* token = gDataManager.user.token;
+//    if (token)
+//    {
+//        [request setValue:[NSString stringWithFormat:@"Bearer %@",token] forHTTPHeaderField:@"Authorization"];
+//    }
+//    return request;
+//}
+//
+//+ (NSMutableURLRequest*) getRequestWithUrl:(NSString*)url
+//{
+//    NSMutableURLRequest* request = [NSMutableURLRequest requestWithURL:
+//                                    [NSURL URLWithString:url]];
+//    [request setHTTPMethod:@"GET"];
+//    [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+//    [request setValue:KSecretKey forHTTPHeaderField:@"x-api-key"];
+//    [request setTimeoutInterval:60.0];
+//    
+//    return request;
+//}
 
 + (NSMutableURLRequest*) getRequestWithService:(NSString*)service
 {
-	NSString* urlString = [kBaseURL stringByAppendingString:service];
-    urlString = [urlString stringByReplacingOccurrencesOfString:@" " withString:@"%20"];
+    
+    service =[service stringByReplacingOccurrencesOfString:@" " withString:@"%20"];
 	NSMutableURLRequest* request = [NSMutableURLRequest requestWithURL:
-									[NSURL URLWithString:urlString]];
+									[NSURL URLWithString:service]];
 	[request setHTTPMethod:@"GET"];
 	[request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-    [request setValue:KSecretKey forHTTPHeaderField:@"x-api-key"];
 	[request setTimeoutInterval:60.0];
 
 	return request;
 }
 
 #pragma mark - POST requests
-+ (NSMutableURLRequest*) postAuthorizationRequestWithService:(NSString*)service
-                                   withpostDict:(NSDictionary*)postDict
-{
-    NSMutableURLRequest* request = [WebServiceManager postRequestWithService:service withpostDict:postDict];
-    NSString* token = gDataManager.user.token;
-    if (token)
-    {
-        [request setValue:[NSString stringWithFormat:@"Bearer %@",token] forHTTPHeaderField:@"Authorization"];
-    }
-    return request;
-}
-
-+ (NSMutableURLRequest*) postRequestWithService:(NSString*)service
-                                withpostDict:(NSDictionary*)postDict
-{
-    NSString* urlString = [kBaseURL stringByAppendingString:service];
-    urlString = [urlString stringByReplacingOccurrencesOfString:@" " withString:@"%20"];
-
-    NSData* postData = [NSJSONSerialization dataWithJSONObject:postDict
-                                                       options:NSJSONWritingPrettyPrinted error:nil];;
-    
-    NSString* postLength = [NSString stringWithFormat:@"%d", (int)[postData length]];
-    
-    NSMutableURLRequest* request = [NSMutableURLRequest requestWithURL:
-                                    [NSURL URLWithString:urlString]];
-    
-    [request setHTTPMethod:@"POST"];
-    [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
-    [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-    [request setValue:KSecretKey forHTTPHeaderField:@"x-api-key"];
-	[request setTimeoutInterval:60.0];
-    [request setHTTPBody:postData];
-	
-    return request;
-}
+//+ (NSMutableURLRequest*) postAuthorizationRequestWithService:(NSString*)service
+//                                   withpostDict:(NSDictionary*)postDict
+//{
+//    NSMutableURLRequest* request = [WebServiceManager postRequestWithService:service withpostDict:postDict];
+//    NSString* token = gDataManager.user.token;
+//    if (token)
+//    {
+//        [request setValue:[NSString stringWithFormat:@"Bearer %@",token] forHTTPHeaderField:@"Authorization"];
+//    }
+//    return request;
+//}
+//
+//+ (NSMutableURLRequest*) postRequestWithService:(NSString*)service
+//                                withpostDict:(NSDictionary*)postDict
+//{
+//    NSString* urlString = [kBaseURL stringByAppendingString:service];
+//    urlString = [urlString stringByReplacingOccurrencesOfString:@" " withString:@"%20"];
+//
+//    NSData* postData = [NSJSONSerialization dataWithJSONObject:postDict
+//                                                       options:NSJSONWritingPrettyPrinted error:nil];;
+//    
+//    NSString* postLength = [NSString stringWithFormat:@"%d", (int)[postData length]];
+//    
+//    NSMutableURLRequest* request = [NSMutableURLRequest requestWithURL:
+//                                    [NSURL URLWithString:urlString]];
+//    
+//    [request setHTTPMethod:@"POST"];
+//    [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
+//    [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+//    [request setValue:KSecretKey forHTTPHeaderField:@"x-api-key"];
+//	[request setTimeoutInterval:60.0];
+//    [request setHTTPBody:postData];
+//	
+//    return request;
+//}
 
 #pragma mark - Send Request
 
@@ -122,21 +120,21 @@
                              serviceResponse.responseData = responseData;
                              
                              
-                             NSDictionary* responseDict = nil;
-                             if (responseData)
-                             {
-                                 responseDict = [[NSJSONSerialization
-                                                 JSONObjectWithData:responseData options:kNilOptions error:nil] objectForKey:@"response"];
-                             }
-                             
-                             NSString* errorString =[responseDict objectForKey:@"message"];
-                             serviceResponse.errorString = errorString;
-                             
-                             Boolean status= [[responseDict objectForKey:@"status"] boolValue];
-                             if (status)
-                                 serviceResponse.status=true;
-                             else
-                                 serviceResponse.status=false;
+//                             NSDictionary* responseDict = nil;
+//                             if (responseData)
+//                             {
+//                                 responseDict = [[NSJSONSerialization
+//                                                 JSONObjectWithData:responseData options:kNilOptions error:nil] objectForKey:@"response"];
+//                             }
+//                             
+//                             NSString* errorString =[responseDict objectForKey:@"message"];
+//                             serviceResponse.errorString = errorString;
+//                             
+//                             Boolean status= [[responseDict objectForKey:@"status"] boolValue];
+//                             if (status)
+//                                 serviceResponse.status=true;
+//                             else
+//                                 serviceResponse.status=false;
                              
                              callback(serviceResponse);
                          });
@@ -152,9 +150,9 @@
                                              JSONObjectWithData:responseData options:kNilOptions error:nil] objectForKey:@"response"];
                             }
                             
-							NSString* errorString = (responseDict) ? [responseDict objectForKey:@"message"] : kServiceErrorMessage;
+//							NSString* errorString = (responseDict) ? [responseDict objectForKey:@"message"] : kServiceErrorMessage;
                             serviceResponse.isSuccess = NO;
-                            serviceResponse.errorString = errorString;
+//                            serviceResponse.errorString = errorString;
                              callback(serviceResponse);
                          });
       }
@@ -182,7 +180,7 @@
     
     if (!didRetrieveFlags)
     {
-        MFLogDEBUGINFO(@"Error. Could not recover network reachability flags\n");
+//        MFLogDEBUGINFO(@"Error. Could not recover network reachability flags\n");
         return 0;
     }
     
@@ -223,14 +221,14 @@
 
 + (void) printRequest:(NSURLRequest*)customUrlRequest
 {
-	MFLogDEBUGINFO(@"Request# \n URL : %@ \n Headers : %@ \n Request Method : %@ \n Post body : %@\n",customUrlRequest.URL.absoluteString, customUrlRequest.allHTTPHeaderFields.description,customUrlRequest.HTTPMethod,customUrlRequest.HTTPBody?[NSJSONSerialization JSONObjectWithData:customUrlRequest.HTTPBody options:0 error:NULL]:customUrlRequest.HTTPBody);
+//	MFLogDEBUGINFO(@"Request# \n URL : %@ \n Headers : %@ \n Request Method : %@ \n Post body : %@\n",customUrlRequest.URL.absoluteString, customUrlRequest.allHTTPHeaderFields.description,customUrlRequest.HTTPMethod,customUrlRequest.HTTPBody?[NSJSONSerialization JSONObjectWithData:customUrlRequest.HTTPBody options:0 error:NULL]:customUrlRequest.HTTPBody);
 }
 
 + (void) printResponse:(NSData*)data
 {
 	if (data) {
 		NSString *responseString = [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding];
-		MFLogDEBUGINFO(@"Response String # %@",responseString);
+//		MFLogDEBUGINFO(@"Response String # %@",responseString);
 	}
 }
 @end

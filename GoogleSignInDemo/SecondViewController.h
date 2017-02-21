@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YTPlayerView.h"
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController < UITableViewDelegate , UITableViewDataSource ,YTPlayerViewDelegate,UISearchBarDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UISearchBar *seacrhbar;
+//@property (weak, nonatomic) IBOutlet NSLayoutConstraint *playerwidth;
+//@property (weak, nonatomic) IBOutlet NSLayoutConstraint *playerHeight;
+
 
 @end

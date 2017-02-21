@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02565FFA60E64B6D97849414 /* libPods-GoogleSignInDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB5A4155731C9DC1B4A969F2 /* libPods-GoogleSignInDemo.a */; };
+		87D7574503F294E3854C8CDE /* libPods-GoogleSignInDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB183D33DFB1CC60DE36ECFB /* libPods-GoogleSignInDemoUITests.a */; };
+		E7134E341E5AD879006FD1FA /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7134E331E5AD879006FD1FA /* DataManager.m */; };
+		E7134E351E5AD879006FD1FA /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7134E331E5AD879006FD1FA /* DataManager.m */; };
+		E7134E361E5AD879006FD1FA /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7134E331E5AD879006FD1FA /* DataManager.m */; };
+		E7134E3B1E5AD882006FD1FA /* WebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7134E381E5AD882006FD1FA /* WebServiceManager.m */; };
+		E7134E3C1E5AD882006FD1FA /* WebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7134E381E5AD882006FD1FA /* WebServiceManager.m */; };
+		E7134E3D1E5AD882006FD1FA /* WebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7134E381E5AD882006FD1FA /* WebServiceManager.m */; };
+		E7134E3E1E5AD882006FD1FA /* WebServiceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E7134E3A1E5AD882006FD1FA /* WebServiceResponse.m */; };
+		E7134E3F1E5AD882006FD1FA /* WebServiceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E7134E3A1E5AD882006FD1FA /* WebServiceResponse.m */; };
+		E7134E401E5AD882006FD1FA /* WebServiceResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E7134E3A1E5AD882006FD1FA /* WebServiceResponse.m */; };
+		E7134E461E5AE12F006FD1FA /* VideosElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E7134E451E5AE12F006FD1FA /* VideosElement.m */; };
+		E7134E471E5AE12F006FD1FA /* VideosElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E7134E451E5AE12F006FD1FA /* VideosElement.m */; };
+		E7134E481E5AE12F006FD1FA /* VideosElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E7134E451E5AE12F006FD1FA /* VideosElement.m */; };
 		E7212FBC1E542D6D00BBF88C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7212FBB1E542D6D00BBF88C /* Social.framework */; };
 		E7212FBE1E54334D00BBF88C /* scene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7212FBD1E54334D00BBF88C /* scene.jpg */; };
 		E7212FBF1E54334D00BBF88C /* scene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7212FBD1E54334D00BBF88C /* scene.jpg */; };
@@ -14,9 +28,12 @@
 		E7212FC31E543B6400BBF88C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7212FC21E543B6400BBF88C /* SecondViewController.m */; };
 		E7212FC41E543B6400BBF88C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7212FC21E543B6400BBF88C /* SecondViewController.m */; };
 		E7212FC51E543B6400BBF88C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7212FC21E543B6400BBF88C /* SecondViewController.m */; };
-		E7212FC81E5440C000BBF88C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7212FC71E5440C000BBF88C /* ThirdViewController.m */; };
-		E7212FC91E5440C000BBF88C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7212FC71E5440C000BBF88C /* ThirdViewController.m */; };
-		E7212FCA1E5440C000BBF88C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7212FC71E5440C000BBF88C /* ThirdViewController.m */; };
+		E7212FCE1E5477AB00BBF88C /* NDCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7212FCC1E5477AB00BBF88C /* NDCustomCell.m */; };
+		E7212FCF1E5477AB00BBF88C /* NDCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7212FCC1E5477AB00BBF88C /* NDCustomCell.m */; };
+		E7212FD01E5477AB00BBF88C /* NDCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7212FCC1E5477AB00BBF88C /* NDCustomCell.m */; };
+		E7212FD11E5477AB00BBF88C /* NDCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7212FCD1E5477AB00BBF88C /* NDCustomCell.xib */; };
+		E7212FD21E5477AB00BBF88C /* NDCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7212FCD1E5477AB00BBF88C /* NDCustomCell.xib */; };
+		E7212FD31E5477AB00BBF88C /* NDCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7212FCD1E5477AB00BBF88C /* NDCustomCell.xib */; };
 		E78838911E52E08B00CB6A36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838901E52E08B00CB6A36 /* main.m */; };
 		E78838941E52E08B00CB6A36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838931E52E08B00CB6A36 /* AppDelegate.m */; };
 		E78838971E52E08B00CB6A36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78838961E52E08B00CB6A36 /* ViewController.m */; };
@@ -103,6 +120,7 @@
 		E788397F1E5312DC00CB6A36 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788397E1E5312DC00CB6A36 /* Bolts.framework */; };
 		E78839801E5312DC00CB6A36 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788397E1E5312DC00CB6A36 /* Bolts.framework */; };
 		E78839811E5312DC00CB6A36 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E788397E1E5312DC00CB6A36 /* Bolts.framework */; };
+		EA3F92FE9AD52AB1828EDB36 /* libPods-GoogleSignInDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C168B9B4D2AFB7DA6DA481 /* libPods-GoogleSignInDemoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,12 +141,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15C168B9B4D2AFB7DA6DA481 /* libPods-GoogleSignInDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleSignInDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DA3402E75EFEB4D5E592B9 /* Pods-GoogleSignInDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSignInDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSignInDemoUITests/Pods-GoogleSignInDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54A4421E47F2DF0A1B1AE5CC /* Pods-GoogleSignInDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSignInDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSignInDemoTests/Pods-GoogleSignInDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8066D9DBBA4C86B74143BD6E /* Pods-GoogleSignInDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSignInDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSignInDemoTests/Pods-GoogleSignInDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		85F2E8D69730359FD877682A /* Pods-GoogleSignInDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSignInDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSignInDemo/Pods-GoogleSignInDemo.release.xcconfig"; sourceTree = "<group>"; };
+		88AE80916E8D7653A0544AB6 /* Pods-GoogleSignInDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSignInDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSignInDemo/Pods-GoogleSignInDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D67E7EA8CC101708F8094357 /* Pods-GoogleSignInDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSignInDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSignInDemoUITests/Pods-GoogleSignInDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB5A4155731C9DC1B4A969F2 /* libPods-GoogleSignInDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleSignInDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7134E321E5AD879006FD1FA /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		E7134E331E5AD879006FD1FA /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		E7134E371E5AD882006FD1FA /* WebServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceManager.h; sourceTree = "<group>"; };
+		E7134E381E5AD882006FD1FA /* WebServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceManager.m; sourceTree = "<group>"; };
+		E7134E391E5AD882006FD1FA /* WebServiceResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceResponse.h; sourceTree = "<group>"; };
+		E7134E3A1E5AD882006FD1FA /* WebServiceResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceResponse.m; sourceTree = "<group>"; };
+		E7134E441E5AE12F006FD1FA /* VideosElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideosElement.h; sourceTree = "<group>"; };
+		E7134E451E5AE12F006FD1FA /* VideosElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideosElement.m; sourceTree = "<group>"; };
 		E7212FBB1E542D6D00BBF88C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		E7212FBD1E54334D00BBF88C /* scene.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scene.jpg; sourceTree = "<group>"; };
 		E7212FC11E543B6400BBF88C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		E7212FC21E543B6400BBF88C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		E7212FC61E5440C000BBF88C /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		E7212FC71E5440C000BBF88C /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		E7212FCB1E5477AB00BBF88C /* NDCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDCustomCell.h; sourceTree = "<group>"; };
+		E7212FCC1E5477AB00BBF88C /* NDCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDCustomCell.m; sourceTree = "<group>"; };
+		E7212FCD1E5477AB00BBF88C /* NDCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NDCustomCell.xib; sourceTree = "<group>"; };
 		E788388C1E52E08B00CB6A36 /* GoogleSignInDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleSignInDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78838901E52E08B00CB6A36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E78838921E52E08B00CB6A36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -191,6 +226,7 @@
 		E78839761E5312AC00CB6A36 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		E78839771E5312AC00CB6A36 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		E788397E1E5312DC00CB6A36 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		FB183D33DFB1CC60DE36ECFB /* libPods-GoogleSignInDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleSignInDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +244,7 @@
 				E788397F1E5312DC00CB6A36 /* Bolts.framework in Frameworks */,
 				E788397B1E5312AC00CB6A36 /* FBSDKLoginKit.framework in Frameworks */,
 				E78839451E530DC900CB6A36 /* GoogleSignIn.framework in Frameworks */,
+				02565FFA60E64B6D97849414 /* libPods-GoogleSignInDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +259,7 @@
 				E788394C1E530DC900CB6A36 /* GoogleSymbolUtilities.framework in Frameworks */,
 				E78839491E530DC900CB6A36 /* GoogleSignInDependencies.framework in Frameworks */,
 				E78839801E5312DC00CB6A36 /* Bolts.framework in Frameworks */,
+				EA3F92FE9AD52AB1828EDB36 /* libPods-GoogleSignInDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,12 +274,73 @@
 				E788394D1E530DC900CB6A36 /* GoogleSymbolUtilities.framework in Frameworks */,
 				E788394A1E530DC900CB6A36 /* GoogleSignInDependencies.framework in Frameworks */,
 				E78839811E5312DC00CB6A36 /* Bolts.framework in Frameworks */,
+				87D7574503F294E3854C8CDE /* libPods-GoogleSignInDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E7134E411E5AE0B8006FD1FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7134E441E5AE12F006FD1FA /* VideosElement.h */,
+				E7134E451E5AE12F006FD1FA /* VideosElement.m */,
+				E7134E371E5AD882006FD1FA /* WebServiceManager.h */,
+				E7134E381E5AD882006FD1FA /* WebServiceManager.m */,
+				E7134E391E5AD882006FD1FA /* WebServiceResponse.h */,
+				E7134E3A1E5AD882006FD1FA /* WebServiceResponse.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E7134E421E5AE0C7006FD1FA /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E78838921E52E08B00CB6A36 /* AppDelegate.h */,
+				E78838931E52E08B00CB6A36 /* AppDelegate.m */,
+			);
+			name = Appdelegate;
+			sourceTree = "<group>";
+		};
+		E7134E431E5AE0DD006FD1FA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E78838951E52E08B00CB6A36 /* ViewController.h */,
+				E78838961E52E08B00CB6A36 /* ViewController.m */,
+				E7212FC11E543B6400BBF88C /* SecondViewController.h */,
+				E7212FC21E543B6400BBF88C /* SecondViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E73CF6481E5C1C2C00776B64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7212FBD1E54334D00BBF88C /* scene.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E73CF6491E5C1C4800776B64 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E7212FCB1E5477AB00BBF88C /* NDCustomCell.h */,
+				E7212FCC1E5477AB00BBF88C /* NDCustomCell.m */,
+				E7212FCD1E5477AB00BBF88C /* NDCustomCell.xib */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		E73CF64A1E5C1C8A00776B64 /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E7134E321E5AD879006FD1FA /* DataManager.h */,
+				E7134E331E5AD879006FD1FA /* DataManager.m */,
+			);
+			name = "Data Manager";
+			sourceTree = "<group>";
+		};
 		E78838831E52E08B00CB6A36 = {
 			isa = PBXGroup;
 			children = (
@@ -250,6 +349,7 @@
 				E78838B61E52E08C00CB6A36 /* GoogleSignInDemoUITests */,
 				E788388D1E52E08B00CB6A36 /* Products */,
 				E78838C51E52E0B900CB6A36 /* Frameworks */,
+				F0AA2DB1688BD1CE27366B9F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -266,18 +366,13 @@
 		E788388E1E52E08B00CB6A36 /* GoogleSignInDemo */ = {
 			isa = PBXGroup;
 			children = (
-				E7212FBD1E54334D00BBF88C /* scene.jpg */,
-				E78838921E52E08B00CB6A36 /* AppDelegate.h */,
-				E78838931E52E08B00CB6A36 /* AppDelegate.m */,
-				E78838951E52E08B00CB6A36 /* ViewController.h */,
-				E78838961E52E08B00CB6A36 /* ViewController.m */,
-				E7212FC11E543B6400BBF88C /* SecondViewController.h */,
-				E7212FC21E543B6400BBF88C /* SecondViewController.m */,
-				E7212FC61E5440C000BBF88C /* ThirdViewController.h */,
-				E7212FC71E5440C000BBF88C /* ThirdViewController.m */,
-				E78838981E52E08B00CB6A36 /* Main.storyboard */,
+				E7134E421E5AE0C7006FD1FA /* Appdelegate */,
+				E73CF64A1E5C1C8A00776B64 /* Data Manager */,
+				E7134E411E5AE0B8006FD1FA /* Model */,
+				E73CF6491E5C1C4800776B64 /* Custom Cell */,
+				E73CF6481E5C1C2C00776B64 /* Resources */,
+				E7134E431E5AE0DD006FD1FA /* ViewController */,
 				E788389E1E52E08C00CB6A36 /* Assets.xcassets */,
-				E78838A01E52E08C00CB6A36 /* LaunchScreen.storyboard */,
 				E78838A31E52E08C00CB6A36 /* Info.plist */,
 				E788389B1E52E08C00CB6A36 /* GoogleSignInDemo.xcdatamodeld */,
 				E788388F1E52E08B00CB6A36 /* Supporting Files */,
@@ -289,6 +384,8 @@
 		E788388F1E52E08B00CB6A36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E78838981E52E08B00CB6A36 /* Main.storyboard */,
+				E78838A01E52E08C00CB6A36 /* LaunchScreen.storyboard */,
 				E78838DF1E52E16500CB6A36 /* GoogleService-Info.plist */,
 				E78838901E52E08B00CB6A36 /* main.m */,
 			);
@@ -324,6 +421,9 @@
 				E78838CA1E52E0CC00CB6A36 /* Google Sign In */,
 				E78838C81E52E0C000CB6A36 /* SafariServices.framework */,
 				E78838C61E52E0B900CB6A36 /* SystemConfiguration.framework */,
+				DB5A4155731C9DC1B4A969F2 /* libPods-GoogleSignInDemo.a */,
+				15C168B9B4D2AFB7DA6DA481 /* libPods-GoogleSignInDemoTests.a */,
+				FB183D33DFB1CC60DE36ECFB /* libPods-GoogleSignInDemoUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -380,6 +480,19 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		F0AA2DB1688BD1CE27366B9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88AE80916E8D7653A0544AB6 /* Pods-GoogleSignInDemo.debug.xcconfig */,
+				85F2E8D69730359FD877682A /* Pods-GoogleSignInDemo.release.xcconfig */,
+				54A4421E47F2DF0A1B1AE5CC /* Pods-GoogleSignInDemoTests.debug.xcconfig */,
+				8066D9DBBA4C86B74143BD6E /* Pods-GoogleSignInDemoTests.release.xcconfig */,
+				21DA3402E75EFEB4D5E592B9 /* Pods-GoogleSignInDemoUITests.debug.xcconfig */,
+				D67E7EA8CC101708F8094357 /* Pods-GoogleSignInDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -387,9 +500,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E78838BC1E52E08C00CB6A36 /* Build configuration list for PBXNativeTarget "GoogleSignInDemo" */;
 			buildPhases = (
+				24565483459C0B16781F003B /* [CP] Check Pods Manifest.lock */,
 				E78838881E52E08B00CB6A36 /* Sources */,
 				E78838891E52E08B00CB6A36 /* Frameworks */,
 				E788388A1E52E08B00CB6A36 /* Resources */,
+				BA9D54EA5463B58BCDBBA5B1 /* [CP] Embed Pods Frameworks */,
+				D2A7CB9B16C4FDE013638211 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -404,9 +520,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E78838BF1E52E08C00CB6A36 /* Build configuration list for PBXNativeTarget "GoogleSignInDemoTests" */;
 			buildPhases = (
+				26FA185FC2CAAFBF71736490 /* [CP] Check Pods Manifest.lock */,
 				E78838A41E52E08C00CB6A36 /* Sources */,
 				E78838A51E52E08C00CB6A36 /* Frameworks */,
 				E78838A61E52E08C00CB6A36 /* Resources */,
+				BB7CD1C02C851D1D6EBF50D8 /* [CP] Embed Pods Frameworks */,
+				788169ED4C7AE48FCD161CC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -422,9 +541,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E78838C21E52E08C00CB6A36 /* Build configuration list for PBXNativeTarget "GoogleSignInDemoUITests" */;
 			buildPhases = (
+				805D9DCA432A930175DF89D1 /* [CP] Check Pods Manifest.lock */,
 				E78838AF1E52E08C00CB6A36 /* Sources */,
 				E78838B01E52E08C00CB6A36 /* Frameworks */,
 				E78838B11E52E08C00CB6A36 /* Resources */,
+				CBE28E2B5DC570CE2198206F /* [CP] Embed Pods Frameworks */,
+				4B763BA4906D62D71743E6FC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -489,6 +611,7 @@
 				E78838A21E52E08C00CB6A36 /* LaunchScreen.storyboard in Resources */,
 				E78839421E530DC900CB6A36 /* GoogleSignIn.bundle in Resources */,
 				E788389F1E52E08C00CB6A36 /* Assets.xcassets in Resources */,
+				E7212FD11E5477AB00BBF88C /* NDCustomCell.xib in Resources */,
 				E788389A1E52E08B00CB6A36 /* Main.storyboard in Resources */,
 				E7212FBE1E54334D00BBF88C /* scene.jpg in Resources */,
 				E78838E01E52E16500CB6A36 /* GoogleService-Info.plist in Resources */,
@@ -501,6 +624,7 @@
 			files = (
 				E78839431E530DC900CB6A36 /* GoogleSignIn.bundle in Resources */,
 				E7212FBF1E54334D00BBF88C /* scene.jpg in Resources */,
+				E7212FD21E5477AB00BBF88C /* NDCustomCell.xib in Resources */,
 				E78838E11E52E16500CB6A36 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,17 +635,158 @@
 			files = (
 				E78839441E530DC900CB6A36 /* GoogleSignIn.bundle in Resources */,
 				E7212FC01E54334D00BBF88C /* scene.jpg in Resources */,
+				E7212FD31E5477AB00BBF88C /* NDCustomCell.xib in Resources */,
 				E78838E21E52E16500CB6A36 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24565483459C0B16781F003B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		26FA185FC2CAAFBF71736490 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B763BA4906D62D71743E6FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSignInDemoUITests/Pods-GoogleSignInDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		788169ED4C7AE48FCD161CC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSignInDemoTests/Pods-GoogleSignInDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		805D9DCA432A930175DF89D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9D54EA5463B58BCDBBA5B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSignInDemo/Pods-GoogleSignInDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB7CD1C02C851D1D6EBF50D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSignInDemoTests/Pods-GoogleSignInDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBE28E2B5DC570CE2198206F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSignInDemoUITests/Pods-GoogleSignInDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2A7CB9B16C4FDE013638211 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSignInDemo/Pods-GoogleSignInDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E78838881E52E08B00CB6A36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7134E461E5AE12F006FD1FA /* VideosElement.m in Sources */,
+				E7134E3B1E5AD882006FD1FA /* WebServiceManager.m in Sources */,
 				E788392D1E52F99F00CB6A36 /* UIImageView+HighlightedWebCache.m in Sources */,
 				E78839271E52F99F00CB6A36 /* UIImage+MultiFormat.m in Sources */,
 				E78839181E52F99F00CB6A36 /* SDWebImageDownloaderOperation.m in Sources */,
@@ -533,16 +798,18 @@
 				E78838941E52E08B00CB6A36 /* AppDelegate.m in Sources */,
 				E78838911E52E08B00CB6A36 /* main.m in Sources */,
 				E788392A1E52F99F00CB6A36 /* UIImage+WebP.m in Sources */,
+				E7134E341E5AD879006FD1FA /* DataManager.m in Sources */,
 				E78839301E52F99F00CB6A36 /* UIImageView+WebCache.m in Sources */,
 				E78839151E52F99F00CB6A36 /* SDWebImageDownloader.m in Sources */,
 				E78839331E52F99F00CB6A36 /* UIView+WebCacheOperation.m in Sources */,
+				E7134E3E1E5AD882006FD1FA /* WebServiceResponse.m in Sources */,
 				E78839211E52F99F00CB6A36 /* UIButton+WebCache.m in Sources */,
 				E78839061E52F99F00CB6A36 /* MKAnnotationView+WebCache.m in Sources */,
-				E7212FC81E5440C000BBF88C /* ThirdViewController.m in Sources */,
 				E78839091E52F99F00CB6A36 /* NSData+ImageContentType.m in Sources */,
 				E788389D1E52E08C00CB6A36 /* GoogleSignInDemo.xcdatamodeld in Sources */,
 				E788391B1E52F99F00CB6A36 /* SDWebImageManager.m in Sources */,
 				E78839121E52F99F00CB6A36 /* SDWebImageDecoder.m in Sources */,
+				E7212FCE1E5477AB00BBF88C /* NDCustomCell.m in Sources */,
 				E788390C1E52F99F00CB6A36 /* SDImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -552,6 +819,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7212FC41E543B6400BBF88C /* SecondViewController.m in Sources */,
+				E7134E351E5AD879006FD1FA /* DataManager.m in Sources */,
 				E78839341E52F99F00CB6A36 /* UIView+WebCacheOperation.m in Sources */,
 				E78839281E52F99F00CB6A36 /* UIImage+MultiFormat.m in Sources */,
 				E78838AD1E52E08C00CB6A36 /* GoogleSignInDemoTests.m in Sources */,
@@ -559,17 +827,20 @@
 				E788392E1E52F99F00CB6A36 /* UIImageView+HighlightedWebCache.m in Sources */,
 				E788390A1E52F99F00CB6A36 /* NSData+ImageContentType.m in Sources */,
 				E78839221E52F99F00CB6A36 /* UIButton+WebCache.m in Sources */,
+				E7134E3C1E5AD882006FD1FA /* WebServiceManager.m in Sources */,
 				E78839191E52F99F00CB6A36 /* SDWebImageDownloaderOperation.m in Sources */,
 				E788391C1E52F99F00CB6A36 /* SDWebImageManager.m in Sources */,
-				E7212FC91E5440C000BBF88C /* ThirdViewController.m in Sources */,
 				E78839251E52F99F00CB6A36 /* UIImage+GIF.m in Sources */,
 				E78839101E52F99F00CB6A36 /* SDWebImageCompat.m in Sources */,
 				E78839311E52F99F00CB6A36 /* UIImageView+WebCache.m in Sources */,
 				E78839071E52F99F00CB6A36 /* MKAnnotationView+WebCache.m in Sources */,
 				E78839131E52F99F00CB6A36 /* SDWebImageDecoder.m in Sources */,
+				E7212FCF1E5477AB00BBF88C /* NDCustomCell.m in Sources */,
 				E788392B1E52F99F00CB6A36 /* UIImage+WebP.m in Sources */,
+				E7134E3F1E5AD882006FD1FA /* WebServiceResponse.m in Sources */,
 				E78839161E52F99F00CB6A36 /* SDWebImageDownloader.m in Sources */,
 				E788390D1E52F99F00CB6A36 /* SDImageCache.m in Sources */,
+				E7134E471E5AE12F006FD1FA /* VideosElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,6 +849,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7212FC51E543B6400BBF88C /* SecondViewController.m in Sources */,
+				E7134E361E5AD879006FD1FA /* DataManager.m in Sources */,
 				E78839351E52F99F00CB6A36 /* UIView+WebCacheOperation.m in Sources */,
 				E78839291E52F99F00CB6A36 /* UIImage+MultiFormat.m in Sources */,
 				E78838B81E52E08C00CB6A36 /* GoogleSignInDemoUITests.m in Sources */,
@@ -585,17 +857,20 @@
 				E788392F1E52F99F00CB6A36 /* UIImageView+HighlightedWebCache.m in Sources */,
 				E788390B1E52F99F00CB6A36 /* NSData+ImageContentType.m in Sources */,
 				E78839231E52F99F00CB6A36 /* UIButton+WebCache.m in Sources */,
+				E7134E3D1E5AD882006FD1FA /* WebServiceManager.m in Sources */,
 				E788391A1E52F99F00CB6A36 /* SDWebImageDownloaderOperation.m in Sources */,
 				E788391D1E52F99F00CB6A36 /* SDWebImageManager.m in Sources */,
-				E7212FCA1E5440C000BBF88C /* ThirdViewController.m in Sources */,
 				E78839261E52F99F00CB6A36 /* UIImage+GIF.m in Sources */,
 				E78839111E52F99F00CB6A36 /* SDWebImageCompat.m in Sources */,
 				E78839321E52F99F00CB6A36 /* UIImageView+WebCache.m in Sources */,
 				E78839081E52F99F00CB6A36 /* MKAnnotationView+WebCache.m in Sources */,
 				E78839141E52F99F00CB6A36 /* SDWebImageDecoder.m in Sources */,
+				E7212FD01E5477AB00BBF88C /* NDCustomCell.m in Sources */,
 				E788392C1E52F99F00CB6A36 /* UIImage+WebP.m in Sources */,
+				E7134E401E5AD882006FD1FA /* WebServiceResponse.m in Sources */,
 				E78839171E52F99F00CB6A36 /* SDWebImageDownloader.m in Sources */,
 				E788390E1E52F99F00CB6A36 /* SDImageCache.m in Sources */,
+				E7134E481E5AE12F006FD1FA /* VideosElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,6 +1001,7 @@
 		};
 		E78838BD1E52E08C00CB6A36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88AE80916E8D7653A0544AB6 /* Pods-GoogleSignInDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -743,6 +1019,7 @@
 		};
 		E78838BE1E52E08C00CB6A36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F2E8D69730359FD877682A /* Pods-GoogleSignInDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
@@ -760,6 +1037,7 @@
 		};
 		E78838C01E52E08C00CB6A36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A4421E47F2DF0A1B1AE5CC /* Pods-GoogleSignInDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -776,6 +1054,7 @@
 		};
 		E78838C11E52E08C00CB6A36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8066D9DBBA4C86B74143BD6E /* Pods-GoogleSignInDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -792,6 +1071,7 @@
 		};
 		E78838C31E52E08C00CB6A36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21DA3402E75EFEB4D5E592B9 /* Pods-GoogleSignInDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -807,6 +1087,7 @@
 		};
 		E78838C41E52E08C00CB6A36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D67E7EA8CC101708F8094357 /* Pods-GoogleSignInDemoUITests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
